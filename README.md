@@ -3,7 +3,12 @@
 
 ## 为什么有这个项目
 本来看到了这个[easytrader](https://github.com/shidenggui/easytrader)这个项目，不过这个客户端已经过时了(被强制更新)。于是乎，自己看了一遍easytrader的源码，写了一个自己的版本。
-看了 https://github.com/nladuo/THSTrader，觉得美中不足，所以自己从中优化了一个版本，更具有通用性，应该就能够无视同花顺的版本问题了。
+看了 https://github.com/nladuo/THSTrader，
+觉得美中不足，所以自己从中优化了一个版本，更具有通用性，应该就能够无视同花顺的版本问题了。
+
+微信群：
+
+
 
 ## 安装说明
 ### 同花顺免费模拟炒股软件客户端安装
