@@ -9,6 +9,9 @@
 微信群：
 <img src="https://github.com/a5601564/THSTrader/blob/master/image.png" width="50%" height="50%" />
 
+失效请加：
+vx:gloomylifes
+
 ## 安装说明
 ### 同花顺免费模拟炒股软件客户端安装
 #### 下载链接
