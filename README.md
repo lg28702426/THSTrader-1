@@ -7,7 +7,7 @@
 觉得美中不足，所以自己从中优化了一个版本，更具有通用性，应该就能够无视同花顺的版本问题了。
 
 微信群：
-
+<img src="https://github.com/a5601564/THSTrader/blob/master/image.png" width="50%" height="50%" />
 ![image](https://github.com/a5601564/THSTrader/blob/master/image.png){:height="50%" width="50%"}
 
 ## 安装说明
