@@ -8,9 +8,8 @@
 
 微信群：
 
-https://github.com/a5601564/THSTrader/blob/master/image.png
 
-![image](https://github.com/a5601564/THSTrader/blob/master/image.png)
+![image](../image.png){:height="50%" width="50%"}
 
 ## 安装说明
 ### 同花顺免费模拟炒股软件客户端安装
