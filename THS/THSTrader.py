@@ -8,8 +8,6 @@ import io
 import time
 from easytrader import grid_strategies
 
-from tools.THS.trader_test.captcha_recognize_my import getCodeByGrid
-
 
 class THSTrader:
 

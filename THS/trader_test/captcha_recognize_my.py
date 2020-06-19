@@ -5,8 +5,8 @@ import pytesseract
 import pywinauto
 from pywinauto import clipboard
 
-from tools.THS.trader_test.captcha_recognize import captcha_recognize
-from tools.common.CommonTools import CommonTools
+from THS.trader_test.captcha_recognize import captcha_recognize
+
 pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
 
 def getCodeByGrid(grid,app):
@@ -17,7 +17,8 @@ def getCodeByGrid(grid,app):
     grid.set_focus()
     time.sleep(0.5)
 
-    rootPath = CommonTools.createPathAndGet(CommonTools.get_dbSystemPath(),"captchas")
+
+    rootPath = "captchas"
     file_path = rootPath +  "/" + str(uuid.uuid4()) + ".png"
 
     pywinauto.keyboard.SendKeys('^c')  # 输入C
@@ -45,6 +46,5 @@ def getCodeByGrid(grid,app):
     try:
         data = clipboard.GetData() # 显示剪切板数据
     except Exception as e:
-        CommonTools.exception_print(e,False)
         data = clipboard.GetData()
     return data
